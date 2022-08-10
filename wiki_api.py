@@ -1,9 +1,9 @@
 import requests
-import json
 import pandas as pd
-
+import pymysql
  
-subject = 'Python (programming language)'
+
+subject = 'Emu War'
 url = 'https://en.wikipedia.org/w/api.php'
 params = {
         'action': 'query',
@@ -25,18 +25,88 @@ title = data['query']['pages'][str(pageid)]['title']
 
 # Viewcount data
 clean = data['query']['pages'][str(pageid)]['pageviews']
-print(clean)
 
 # Move data from dictionary to DataFrame
 df = pd.DataFrame(clean.items(), columns = ['Date', 'Views'])
-print(df)
 
 
 
+connection = pymysql.connect(
+                host = 'database-1.cl7ay4156fuf.us-west-2.rds.amazonaws.com',
+                user = 'admin',
+                password = 'XXXX')
+
+cursor = connection.cursor()
+
+
+# USE DATABASE
+sql = '''USE wikidata'''
+cursor.execute(sql)
+cursor.fetchall()
+
+# DROP TABLE
+sql = '''
+DROP TABLE IF EXISTS pages
+'''
+cursor.execute(sql)
+cursor.fetchall()
+
+sql = '''
+DROP TABLE IF EXISTS pageviews
+'''
+cursor.execute(sql)
+cursor.fetchall()
+
+# CREATE TABLE
+sql = '''
+CREATE TABLE IF NOT EXISTS pages (
+pages_id INT NOT NULL AUTO_INCREMENT,
+wiki_id INT NOT NULL,
+page_name VARCHAR(250) NOT NULL,
+entered_at TIMESTAMP DEFAULT NOW(),
+PRIMARY KEY (pages_id)
+)
+'''
+cursor.execute(sql)
+cursor.fetchall()
+
+
+# CREATE TABLE
+sql = '''
+CREATE TABLE IF NOT EXISTS pageviews (
+pageviews_id INT NOT NULL AUTO_INCREMENT,
+wiki_id INT NOT NULL,
+date DATE NOT NULL,
+views INT NOT NULL,
+entered_at TIMESTAMP DEFAULT NOW(),
+PRIMARY KEY (pageviews_id)
+)
+'''
+cursor.execute(sql)
+cursor.fetchall()
+
+
+# INSERT INTO PAGES
+sql = "INSERT INTO pages(wiki_id, page_name) VALUES ("+pageid+", '"+title+"')"
+cursor.execute(sql)
+cursor.fetchall()
+
+
+# INSERT INTO PAGEVIEWS
+sql = "INSERT INTO pageviews(wiki_id, date, views) VALUES "
+for index, row in df.iterrows():
+    date = "'" + row[0] + "'"
+    views = str(row[1])
+
+    cur = "("+pageid+", "+date+", "+views+"), "
+    sql = sql + cur
+sql = sql[:-2]
+
+cursor.execute(sql)
+cursor.fetchall()
 
 
 
-# url = 'https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/en.wikipedia/all-access/all-agents/Albert_Einstein/daily/2013100100/2015103100'
-# df2 = pd.read_json(url)
-# print(df2)
-
+# COMMIT CHANGES
+cursor.connection.commit()
+cursor.fetchall()
