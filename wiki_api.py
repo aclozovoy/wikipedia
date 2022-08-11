@@ -3,7 +3,7 @@ import pandas as pd
 import pymysql
  
 
-subject = 'Emu War'
+subject = 'Chicago'
 url = 'https://en.wikipedia.org/w/api.php'
 params = {
         'action': 'query',
@@ -28,13 +28,13 @@ clean = data['query']['pages'][str(pageid)]['pageviews']
 
 # Move data from dictionary to DataFrame
 df = pd.DataFrame(clean.items(), columns = ['Date', 'Views'])
-
+df = df.dropna()
 
 
 connection = pymysql.connect(
                 host = 'database-1.cl7ay4156fuf.us-west-2.rds.amazonaws.com',
                 user = 'admin',
-                password = 'XXXX')
+                password = '_7t6TKH!oJHQEHQ')
 
 cursor = connection.cursor()
 
@@ -45,17 +45,14 @@ cursor.execute(sql)
 cursor.fetchall()
 
 # DROP TABLE
-sql = '''
-DROP TABLE IF EXISTS pages
-'''
-cursor.execute(sql)
-cursor.fetchall()
+# sql = "DROP TABLE IF EXISTS pages"
+# cursor.execute(sql)
+# cursor.fetchall()
 
-sql = '''
-DROP TABLE IF EXISTS pageviews
-'''
-cursor.execute(sql)
-cursor.fetchall()
+# sql = "DROP TABLE IF EXISTS pageviews"
+# cursor.execute(sql)
+# cursor.fetchall()
+
 
 # CREATE TABLE
 sql = '''
@@ -87,7 +84,10 @@ cursor.fetchall()
 
 
 # INSERT INTO PAGES
-sql = "INSERT INTO pages(wiki_id, page_name) VALUES ("+pageid+", '"+title+"')"
+sql1 = "INSERT INTO pages (wiki_id,page_name) "
+sql2 = "SELECT * FROM (SELECT " + pageid + " AS wiki_id, '" + title + "' AS page_name) AS temp "
+sql3 = "WHERE NOT EXISTS (SELECT wiki_id FROM pages WHERE wiki_id = " + pageid + ") LIMIT 1;"
+sql = sql1 + sql2 + sql3
 cursor.execute(sql)
 cursor.fetchall()
 
@@ -101,7 +101,6 @@ for index, row in df.iterrows():
     cur = "("+pageid+", "+date+", "+views+"), "
     sql = sql + cur
 sql = sql[:-2]
-
 cursor.execute(sql)
 cursor.fetchall()
 
