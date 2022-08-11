@@ -3,7 +3,7 @@ import pandas as pd
 import pymysql
  
 
-subject = 'Chicago'
+subject = 'Colorado'
 url = 'https://en.wikipedia.org/w/api.php'
 params = {
         'action': 'query',
@@ -102,19 +102,6 @@ for index, row in df.iterrows():
     sql = sql1 + sql2 + sql3
     cursor.execute(sql)
     cursor.fetchall()
-
-
-# sql = "INSERT INTO pageviews(wiki_id, date, views) VALUES "
-# for index, row in df.iterrows():
-#     date = "'" + row[0] + "'"
-#     views = str(row[1])
-
-#     cur = "("+pageid+", "+date+", "+views+"), "
-#     sql = sql + cur
-# sql = sql[:-2]
-# cursor.execute(sql)
-# cursor.fetchall()
-
 
 
 # COMMIT CHANGES
