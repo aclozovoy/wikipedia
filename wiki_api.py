@@ -73,7 +73,7 @@ sql = '''
 CREATE TABLE IF NOT EXISTS pageviews (
 pageviews_id INT NOT NULL AUTO_INCREMENT,
 wiki_id INT NOT NULL,
-date DATE NOT NULL,
+viewdate DATE NOT NULL,
 views INT NOT NULL,
 entered_at TIMESTAMP DEFAULT NOW(),
 PRIMARY KEY (pageviews_id)
@@ -93,16 +93,27 @@ cursor.fetchall()
 
 
 # INSERT INTO PAGEVIEWS
-sql = "INSERT INTO pageviews(wiki_id, date, views) VALUES "
 for index, row in df.iterrows():
-    date = "'" + row[0] + "'"
-    views = str(row[1])
+    curdate = str(row[0])
+    views = str(int(row[1]))
+    sql1 = "INSERT INTO pageviews(wiki_id, viewdate, views) "
+    sql2 = "SELECT * FROM (SELECT " + pageid + " AS wiki_id, '" + curdate + "' AS viewdate, " + views + " AS views) AS temp "
+    sql3 = "WHERE NOT EXISTS (SELECT wiki_id, viewdate FROM pageviews WHERE wiki_id = " + pageid + " AND viewdate = '" + curdate + "') LIMIT 1;"
+    sql = sql1 + sql2 + sql3
+    cursor.execute(sql)
+    cursor.fetchall()
 
-    cur = "("+pageid+", "+date+", "+views+"), "
-    sql = sql + cur
-sql = sql[:-2]
-cursor.execute(sql)
-cursor.fetchall()
+
+# sql = "INSERT INTO pageviews(wiki_id, date, views) VALUES "
+# for index, row in df.iterrows():
+#     date = "'" + row[0] + "'"
+#     views = str(row[1])
+
+#     cur = "("+pageid+", "+date+", "+views+"), "
+#     sql = sql + cur
+# sql = sql[:-2]
+# cursor.execute(sql)
+# cursor.fetchall()
 
 
 
