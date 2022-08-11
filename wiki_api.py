@@ -3,7 +3,8 @@ import pandas as pd
 import pymysql
  
 
-subject = 'Colorado'
+subject = 'San Francisco'
+tag = 'city'
 url = 'https://en.wikipedia.org/w/api.php'
 params = {
         'action': 'query',
@@ -60,6 +61,7 @@ CREATE TABLE IF NOT EXISTS pages (
 pages_id INT NOT NULL AUTO_INCREMENT,
 wiki_id INT NOT NULL,
 page_name VARCHAR(250) NOT NULL,
+category VARCHAR(250),
 entered_at TIMESTAMP DEFAULT NOW(),
 PRIMARY KEY (pages_id)
 )
@@ -84,8 +86,8 @@ cursor.fetchall()
 
 
 # INSERT INTO PAGES
-sql1 = "INSERT INTO pages (wiki_id,page_name) "
-sql2 = "SELECT * FROM (SELECT " + pageid + " AS wiki_id, '" + title + "' AS page_name) AS temp "
+sql1 = "INSERT INTO pages (wiki_id,page_name,category) "
+sql2 = "SELECT * FROM (SELECT " + pageid + " AS wiki_id, '" + title + "' AS page_name, '" + tag + "' AS category) AS temp "
 sql3 = "WHERE NOT EXISTS (SELECT wiki_id FROM pages WHERE wiki_id = " + pageid + ") LIMIT 1;"
 sql = sql1 + sql2 + sql3
 cursor.execute(sql)
