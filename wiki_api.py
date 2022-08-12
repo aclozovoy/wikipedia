@@ -1,8 +1,8 @@
 
-file = 'states.txt'
-tag = 'state'
+file = 'mlb_teams.txt'
+tag = 'MLB teams'
 
-# Read file as 
+# Make text file into a list
 my_file = open(file, "r")
 data = my_file.read()
 my_file.close()
