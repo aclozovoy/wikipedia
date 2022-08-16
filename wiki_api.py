@@ -1,6 +1,6 @@
 
-file = 'mlb_teams.txt'
-tag = 'MLB teams'
+file = 'nfl_teams.txt'
+tag = 'NFL teams'
 
 # Make text file into a list
 my_file = open(file, "r")

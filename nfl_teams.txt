@@ -14,6 +14,7 @@ Houston Texans
 Indianapolis Colts
 Jacksonville Jaguars
 Kansas City Chiefs
+Las Vegas Raiders
 Los Angeles Chargers
 Los Angeles Rams
 Miami Dolphins
@@ -22,7 +23,6 @@ New England Patriots
 New Orleans Saints
 New York Giants
 New York Jets
-Oakland Raiders
 Philadelphia Eagles
 Pittsburgh Steelers
 San Francisco 49ers

@@ -1,7 +1,7 @@
 Baltimore Orioles
 Boston Red Sox
 Chicago White Sox
-Cleveland Indians
+Cleveland Guardians
 Detroit Tigers
 Houston Astros
 Kansas City Royals
@@ -11,7 +11,7 @@ New York Yankees
 Oakland Athletics
 Seattle Mariners
 Tampa Bay Rays
-Texas Rangers
+Texas Rangers (baseball)
 Toronto Blue Jays
 Milwaukee Brewers
 Chicago Cubs
