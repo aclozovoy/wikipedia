@@ -99,7 +99,7 @@ Colorado|US States
 Connecticut|US States
 Delaware|US States
 Florida|US States
-Georgia|US States
+Georgia (U.S. state)|US States
 Hawaii|US States
 Idaho|US States
 Illinois|US States
@@ -121,7 +121,7 @@ Nevada|US States
 New Hampshire|US States
 New Jersey|US States
 New Mexico|US States
-New York|US States
+New York (state)|US States
 North Carolina|US States
 North Dakota|US States
 Ohio|US States
