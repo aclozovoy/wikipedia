@@ -1,50 +1,52 @@
-Alabama
-Alaska
-Arizona
-Arkansas
-California
-Colorado
-Connecticut
-Delaware
-Florida
-Georgia
-Hawaii
-Idaho
-Illinois
-Indiana
-Iowa
-Kansas
-Kentucky
-Louisiana
-Maine
-Maryland
-Massachusetts
-Michigan
-Minnesota
-Mississippi
-Missouri
-Montana
-Nebraska
-Nevada
-New Hampshire
-New Jersey
-New Mexico
-New York
-North Carolina
-North Dakota
-Ohio
-Oklahoma
-Oregon
-Pennsylvania
-Rhode Island
-South Carolina
-South Dakota
-Tennessee
-Texas
-Utah
-Vermont
-Virginia
-Washington (state)
-West Virginia
-Wisconsin
-Wyoming
+Alabama|US States
+Alaska|US States
+Arizona|US States
+Arkansas|US States
+California|US States
+Colorado|US States
+Connecticut|US States
+Delaware|US States
+Florida|US States
+Georgia|US States
+Hawaii|US States
+Idaho|US States
+Illinois|US States
+Indiana|US States
+Iowa|US States
+Kansas|US States
+Kentucky|US States
+Louisiana|US States
+Maine|US States
+Maryland|US States
+Massachusetts|US States
+Michigan|US States
+Minnesota|US States
+Mississippi|US States
+Missouri|US States
+Montana|US States
+Nebraska|US States
+Nevada|US States
+New Hampshire|US States
+New Jersey|US States
+New Mexico|US States
+New York|US States
+North Carolina|US States
+North Dakota|US States
+Ohio|US States
+Oklahoma|US States
+Oregon|US States
+Pennsylvania|US States
+Puerto Rico|US States
+Rhode Island|US States
+South Carolina|US States
+South Dakota|US States
+Tennessee|US States
+Texas|US States
+Utah|US States
+Vermont|US States
+Virginia|US States
+Washington (state)|US States
+Washington, D.C.|US States
+West Virginia|US States
+Wisconsin|US States
+Wyoming|US States

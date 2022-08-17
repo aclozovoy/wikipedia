@@ -1,32 +1,32 @@
-Arizona Cardinals
-Atlanta Falcons
-Baltimore Ravens
-Buffalo Bills
-Carolina Panthers
-Chicago Bears
-Cincinnati Bengals
-Cleveland Browns
-Dallas Cowboys
-Denver Broncos
-Detroit Lions
-Green Bay Packers
-Houston Texans
-Indianapolis Colts
-Jacksonville Jaguars
-Kansas City Chiefs
-Las Vegas Raiders
-Los Angeles Chargers
-Los Angeles Rams
-Miami Dolphins
-Minnesota Vikings
-New England Patriots
-New Orleans Saints
-New York Giants
-New York Jets
-Philadelphia Eagles
-Pittsburgh Steelers
-San Francisco 49ers
-Seattle Seahawks
-Tampa Bay Buccaneers
-Tennessee Titans
-Washington Commanders
+Arizona Cardinals|NFL Teams
+Atlanta Falcons|NFL Teams
+Baltimore Ravens|NFL Teams
+Buffalo Bills|NFL Teams
+Carolina Panthers|NFL Teams
+Chicago Bears|NFL Teams
+Cincinnati Bengals|NFL Teams
+Cleveland Browns|NFL Teams
+Dallas Cowboys|NFL Teams
+Denver Broncos|NFL Teams
+Detroit Lions|NFL Teams
+Green Bay Packers|NFL Teams
+Houston Texans|NFL Teams
+Indianapolis Colts|NFL Teams
+Jacksonville Jaguars|NFL Teams
+Kansas City Chiefs|NFL Teams
+Las Vegas Raiders|NFL Teams
+Los Angeles Chargers|NFL Teams
+Los Angeles Rams|NFL Teams
+Miami Dolphins|NFL Teams
+Minnesota Vikings|NFL Teams
+New England Patriots|NFL Teams
+New Orleans Saints|NFL Teams
+New York Giants|NFL Teams
+New York Jets|NFL Teams
+Philadelphia Eagles|NFL Teams
+Pittsburgh Steelers|NFL Teams
+San Francisco 49ers|NFL Teams
+Seattle Seahawks|NFL Teams
+Tampa Bay Buccaneers|NFL Teams
+Tennessee Titans|NFL Teams
+Washington Commanders|NFL Teams

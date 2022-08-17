@@ -1,30 +1,30 @@
-Baltimore Orioles
-Boston Red Sox
-Chicago White Sox
-Cleveland Guardians
-Detroit Tigers
-Houston Astros
-Kansas City Royals
-Los Angeles Angels
-Minnesota Twins
-New York Yankees
-Oakland Athletics
-Seattle Mariners
-Tampa Bay Rays
-Texas Rangers (baseball)
-Toronto Blue Jays
-Milwaukee Brewers
-Chicago Cubs
-Cincinnati Reds
-Pittsburgh Pirates
-St. Louis Cardinals
-Atlanta Braves
-Washington Nationals
-New York Mets
-Philadelphia Phillies
-Miami Marlins
-Los Angeles Dodgers
-San Diego Padres
-San Francisco Giants
-Colorado Rockies
-Arizona Diamondbacks
+Baltimore Orioles|MLB Teams
+Boston Red Sox|MLB Teams
+Chicago White Sox|MLB Teams
+Cleveland Guardians|MLB Teams
+Detroit Tigers|MLB Teams
+Houston Astros|MLB Teams
+Kansas City Royals|MLB Teams
+Los Angeles Angels|MLB Teams
+Minnesota Twins|MLB Teams
+New York Yankees|MLB Teams
+Oakland Athletics|MLB Teams
+Seattle Mariners|MLB Teams
+Tampa Bay Rays|MLB Teams
+Texas Rangers (baseball)|MLB Teams
+Toronto Blue Jays|MLB Teams
+Milwaukee Brewers|MLB Teams
+Chicago Cubs|MLB Teams
+Cincinnati Reds|MLB Teams
+Pittsburgh Pirates|MLB Teams
+St. Louis Cardinals|MLB Teams
+Atlanta Braves|MLB Teams
+Washington Nationals|MLB Teams
+New York Mets|MLB Teams
+Philadelphia Phillies|MLB Teams
+Miami Marlins|MLB Teams
+Los Angeles Dodgers|MLB Teams
+San Diego Padres|MLB Teams
+San Francisco Giants|MLB Teams
+Colorado Rockies|MLB Teams
+Arizona Diamondbacks|MLB Teams

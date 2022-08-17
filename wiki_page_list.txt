@@ -1,0 +1,144 @@
+Baltimore Orioles|MLB Teams
+Boston Red Sox|MLB Teams
+Chicago White Sox|MLB Teams
+Cleveland Guardians|MLB Teams
+Detroit Tigers|MLB Teams
+Houston Astros|MLB Teams
+Kansas City Royals|MLB Teams
+Los Angeles Angels|MLB Teams
+Minnesota Twins|MLB Teams
+New York Yankees|MLB Teams
+Oakland Athletics|MLB Teams
+Seattle Mariners|MLB Teams
+Tampa Bay Rays|MLB Teams
+Texas Rangers (baseball)|MLB Teams
+Toronto Blue Jays|MLB Teams
+Milwaukee Brewers|MLB Teams
+Chicago Cubs|MLB Teams
+Cincinnati Reds|MLB Teams
+Pittsburgh Pirates|MLB Teams
+St. Louis Cardinals|MLB Teams
+Atlanta Braves|MLB Teams
+Washington Nationals|MLB Teams
+New York Mets|MLB Teams
+Philadelphia Phillies|MLB Teams
+Miami Marlins|MLB Teams
+Los Angeles Dodgers|MLB Teams
+San Diego Padres|MLB Teams
+San Francisco Giants|MLB Teams
+Colorado Rockies|MLB Teams
+Arizona Diamondbacks|MLB Teams
+Arizona Cardinals|NFL Teams
+Atlanta Falcons|NFL Teams
+Baltimore Ravens|NFL Teams
+Buffalo Bills|NFL Teams
+Carolina Panthers|NFL Teams
+Chicago Bears|NFL Teams
+Cincinnati Bengals|NFL Teams
+Cleveland Browns|NFL Teams
+Dallas Cowboys|NFL Teams
+Denver Broncos|NFL Teams
+Detroit Lions|NFL Teams
+Green Bay Packers|NFL Teams
+Houston Texans|NFL Teams
+Indianapolis Colts|NFL Teams
+Jacksonville Jaguars|NFL Teams
+Kansas City Chiefs|NFL Teams
+Las Vegas Raiders|NFL Teams
+Los Angeles Chargers|NFL Teams
+Los Angeles Rams|NFL Teams
+Miami Dolphins|NFL Teams
+Minnesota Vikings|NFL Teams
+New England Patriots|NFL Teams
+New Orleans Saints|NFL Teams
+New York Giants|NFL Teams
+New York Jets|NFL Teams
+Philadelphia Eagles|NFL Teams
+Pittsburgh Steelers|NFL Teams
+San Francisco 49ers|NFL Teams
+Seattle Seahawks|NFL Teams
+Tampa Bay Buccaneers|NFL Teams
+Tennessee Titans|NFL Teams
+Washington Commanders|NFL Teams
+Atlanta Hawks|NBA Teams
+Boston Celtics|NBA Teams
+Brooklyn Nets|NBA Teams
+Charlotte Hornets|NBA Teams
+Chicago Bulls|NBA Teams
+Cleveland Cavaliers|NBA Teams
+Dallas Mavericks|NBA Teams
+Denver Nuggets|NBA Teams
+Detroit Pistons|NBA Teams
+Golden State Warriors|NBA Teams
+Houston Rockets|NBA Teams
+Indiana Pacers|NBA Teams
+Los Angeles Clippers|NBA Teams
+Los Angeles Lakers|NBA Teams
+Memphis Grizzlies|NBA Teams
+Miami Heat|NBA Teams
+Milwaukee Bucks|NBA Teams
+Minnesota Timberwolves|NBA Teams
+New Orleans Pelicans|NBA Teams
+New York Knicks|NBA Teams
+Oklahoma City Thunder|NBA Teams
+Orlando Magic|NBA Teams
+Philadelphia 76ers|NBA Teams
+Phoenix Suns|NBA Teams
+Portland Trail Blazers|NBA Teams
+Sacramento Kings|NBA Teams
+San Antonio Spurs|NBA Teams
+Toronto Raptors|NBA Teams
+Utah Jazz|NBA Teams
+Washington Wizards|NBA Teams
+Alabama|US States
+Alaska|US States
+Arizona|US States
+Arkansas|US States
+California|US States
+Colorado|US States
+Connecticut|US States
+Delaware|US States
+Florida|US States
+Georgia|US States
+Hawaii|US States
+Idaho|US States
+Illinois|US States
+Indiana|US States
+Iowa|US States
+Kansas|US States
+Kentucky|US States
+Louisiana|US States
+Maine|US States
+Maryland|US States
+Massachusetts|US States
+Michigan|US States
+Minnesota|US States
+Mississippi|US States
+Missouri|US States
+Montana|US States
+Nebraska|US States
+Nevada|US States
+New Hampshire|US States
+New Jersey|US States
+New Mexico|US States
+New York|US States
+North Carolina|US States
+North Dakota|US States
+Ohio|US States
+Oklahoma|US States
+Oregon|US States
+Pennsylvania|US States
+Puerto Rico|US States
+Rhode Island|US States
+South Carolina|US States
+South Dakota|US States
+Tennessee|US States
+Texas|US States
+Utah|US States
+Vermont|US States
+Virginia|US States
+Washington (state)|US States
+Washington, D.C.|US States
+West Virginia|US States
+Wisconsin|US States
+Wyoming|US States

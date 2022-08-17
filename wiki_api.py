@@ -1,6 +1,10 @@
 
-file = 'test.txt'
-tag = 'tester'
+
+import datetime
+cur_date = datetime.datetime.now().strftime('%Y%m%d')
+begin_date = '20220101'
+
+file = 'wiki_page_list.txt'
 
 # Make text file into a list
 my_file = open(file, "r")
@@ -13,18 +17,24 @@ from db_conn import *
 cursor = conn()
 
 
-for subject in subjectlist:
+for row in subjectlist:
+    subject = row.split('|')[0]
+    taglist = row.split('|')[1:]
     print(subject)
-    tag = tag
 
     # CHECK DATA ALREADY IN DATABASE
     from db_view import *
     latest = db_view(subject, cursor)
 
+    if latest == '11111111':
+        start_date = begin_date
+    else:
+        start_date = latest
+
     # GET DATA FROM WIKIPEDIA API
     from api_data import *
-    pageid, title, df = api_data(subject)#,start_date,end_date)
+    df = api_data(subject,start_date,cur_date)
 
     # LOAD DATA INTO DATABASE
     from db_load import *
-    load(df, pageid, title, tag, cursor)
+    load(df, subject, taglist, cursor)

@@ -1,1 +1,3 @@
-United States
+United States|Country
+Japan|Country|Geography
+Germany

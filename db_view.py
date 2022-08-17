@@ -1,22 +1,19 @@
 def db_view(subject, cursor):
 
-    # FIND MOST RECENT DATE FOR CURRENT SUBJECT 
-    sql1 = '''
+    # FIND MOST RECENT DATE FOR CURRENT SUBJECT
+    sql = '''
     SELECT DATE_FORMAT(viewdate, '%Y%m%d') FROM pageviews
-    JOIN pages
-        ON pageviews.wiki_id = pages.wiki_id
-    WHERE page_name =
-    '''
-    sql2 = " '" + subject + "' "
-    sql3 = '''
-    ORDER BY viewdate
+    WHERE page_name = '{}'
+    ORDER BY viewdate DESC
     LIMIT 1;
-    '''
-    sql = sql1  + sql2 + sql3
+    '''.format(subject)
 
     cursor.execute(sql)
     result = cursor.fetchall()
 
-    latest = result[0][0]
+    if result == ():
+        latest = '11111111'
+    else:
+        latest = result[0][0]
 
     return latest

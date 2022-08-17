@@ -15,44 +15,50 @@ def conn():
     cursor.execute(sql)
     cursor.fetchall()
 
+
     # DROP TABLE
-    # sql = "DROP TABLE IF EXISTS pages"
-    # cursor.execute(sql)
-    # cursor.fetchall()
-
-    # sql = "DROP TABLE IF EXISTS pageviews"
-    # cursor.execute(sql)
-    # cursor.fetchall()
-
-
-    # CREATE TABLE
-    sql = '''
-    CREATE TABLE IF NOT EXISTS pages (
-    pages_id INT NOT NULL AUTO_INCREMENT,
-    wiki_id INT NOT NULL,
-    page_name VARCHAR(250) NOT NULL,
-    category VARCHAR(250),
-    entered_at TIMESTAMP DEFAULT NOW(),
-    PRIMARY KEY (pages_id)
-    )
-    '''
+    sql = "DROP TABLE IF EXISTS pages"
     cursor.execute(sql)
     cursor.fetchall()
 
+    sql = "DROP TABLE IF EXISTS pageviews"
+    cursor.execute(sql)
+    cursor.fetchall()
 
-    # CREATE TABLE
+    sql = "DROP TABLE IF EXISTS tags"
+    cursor.execute(sql)
+    cursor.fetchall()
+
+    cursor.connection.commit()
+    cursor.fetchall()
+
+ 
+    # CREATE PAGEVIEWS TABLE
     sql = '''
     CREATE TABLE IF NOT EXISTS pageviews (
-    pageviews_id INT NOT NULL AUTO_INCREMENT,
-    wiki_id INT NOT NULL,
+    pageviews_id INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
+    page_name VARCHAR(250) NOT NULL,
     viewdate DATE NOT NULL,
     views INT NOT NULL,
-    entered_at TIMESTAMP DEFAULT NOW(),
-    PRIMARY KEY (pageviews_id)
+    entered_at TIMESTAMP DEFAULT NOW()
     )
     '''
     cursor.execute(sql)
     cursor.fetchall()
+
+    # CREATE TAGS TABLE
+    sql = '''
+    CREATE TABLE IF NOT EXISTS tags (
+    tags_id INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
+    tag VARCHAR(100) NOT NULL,
+    page_name VARCHAR(250) NOT NULL,
+    entered_at TIMESTAMP DEFAULT NOW()
+    )
+    '''
+    cursor.execute(sql)
+    cursor.fetchall()
+
+
 
     # COMMIT CHANGES
     cursor.connection.commit()

@@ -1,32 +1,25 @@
-def api_data(subject):
+def api_data(subject,start_date,end_date):
 
-    import requests
     import pandas as pd
 
-    url = 'https://en.wikipedia.org/w/api.php'
-    params = {
-            'action': 'query',
-            'format': 'json',
-            'titles': subject,
-            'prop': 'pageviews',
-            'pvipdays': 60,
-        }
+    # WRITE URL STRING FOR API CALL
+    base = 'https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/en.wikipedia/all-access/all-agents/'
+    subject = subject.replace(" ", "_")
+    interval = '/daily/'
+    start_date = start_date + '/'
+    end_date = end_date
+    url = base + subject + interval + start_date + end_date
     
-    r = requests.get(url, params=params)
-    data = r.json()
 
-    # Page id
-    temp = data['query']['pages']
-    pageid = list(temp.keys())[0]
+    df_json = pd.read_json(url)
+  
+    # Create empty dataframe
+    df = pd.DataFrame(columns = ['Date', 'Views'])
 
-    # Title
-    title = data['query']['pages'][str(pageid)]['title']
+    for index, row in df_json.iterrows():
+        df.at[index,'Date'] = row.loc['items']['timestamp']
+        df.at[index,'Views'] = row.loc['items']['views']
 
-    # Viewcount data
-    clean = data['query']['pages'][str(pageid)]['pageviews']
-
-    # Move data from dictionary to DataFrame
-    df = pd.DataFrame(clean.items(), columns = ['Date', 'Views'])
     df = df.dropna()
 
-    return pageid, title, df
+    return df
