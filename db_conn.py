@@ -17,20 +17,16 @@ def conn():
 
 
     # DROP TABLE
-    sql = "DROP TABLE IF EXISTS pages"
-    cursor.execute(sql)
-    cursor.fetchall()
+    # sql = "DROP TABLE IF EXISTS pageviews"
+    # cursor.execute(sql)
+    # cursor.fetchall()
 
-    sql = "DROP TABLE IF EXISTS pageviews"
-    cursor.execute(sql)
-    cursor.fetchall()
+    # sql = "DROP TABLE IF EXISTS tags"
+    # cursor.execute(sql)
+    # cursor.fetchall()
 
-    sql = "DROP TABLE IF EXISTS tags"
-    cursor.execute(sql)
-    cursor.fetchall()
-
-    cursor.connection.commit()
-    cursor.fetchall()
+    # cursor.connection.commit()
+    # cursor.fetchall()
 
  
     # CREATE PAGEVIEWS TABLE
