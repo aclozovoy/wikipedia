@@ -142,3 +142,231 @@ Washington, D.C.|US States
 West Virginia|US States
 Wisconsin|US States
 Wyoming|US States
+Anaheim Ducks|NHL Teams
+Arizona Coyotes|NHL Teams
+Boston Bruins|NHL Teams
+Buffalo Sabres|NHL Teams
+Calgary Flames|NHL Teams
+Carolina Hurricanes|NHL Teams
+Chicago Blackhawks|NHL Teams
+Colorado Avalanche|NHL Teams
+Columbus Blue Jackets|NHL Teams
+Dallas Stars|NHL Teams
+Detroit Red Wings|NHL Teams
+Edmonton Oilers|NHL Teams
+Florida Panthers|NHL Teams
+Los Angeles Kings|NHL Teams
+Minnesota Wild|NHL Teams
+Montreal Canadiens|NHL Teams
+Nashville Predators|NHL Teams
+New Jersey Devils|NHL Teams
+New York Islanders|NHL Teams
+New York Rangers|NHL Teams
+Ottawa Senators|NHL Teams
+Philadelphia Flyers|NHL Teams
+Pittsburgh Penguins|NHL Teams
+San Jose Sharks|NHL Teams
+Seattle Kraken|NHL Teams
+St. Louis Blues|NHL Teams
+Tampa Bay Lightning|NHL Teams
+Toronto Maple Leafs|NHL Teams
+Vancouver Canucks|NHL Teams
+Vegas Golden Knights|NHL Teams
+Washington Capitals|NHL Teams
+Winnipeg Jets|NHL Teams
+Afghanistan|Countries
+Albania|Countries
+Algeria|Countries
+Andorra|Countries
+Angola|Countries
+Antigua and Barbuda|Countries
+Argentina|Countries
+Armenia|Countries
+Australia|Countries
+Austria|Countries
+Azerbaijan|Countries
+The Bahamas|Countries
+Bahrain|Countries
+Bangladesh|Countries
+Barbados|Countries
+Belarus|Countries
+Belgium|Countries
+Belize|Countries
+Benin|Countries
+Bhutan|Countries
+Bolivia|Countries
+Bosnia and Herzegovina|Countries
+Botswana|Countries
+Brazil|Countries
+Brunei|Countries
+Bulgaria|Countries
+Burkina Faso|Countries
+Burundi|Countries
+Cambodia|Countries
+Cameroon|Countries
+Canada|Countries
+Cape Verde|Countries
+Central African Republic|Countries
+Chad|Countries
+Chile|Countries
+China|Countries
+Colombia|Countries
+Comoros|Countries
+Republic of the Congo|Countries
+Democratic Republic of the Congo|Countries
+Costa Rica|Countries
+Ivory Coast|Countries
+Croatia|Countries
+Cuba|Countries
+Cyprus|Countries
+Czech Republic|Countries
+Denmark|Countries
+Djibouti|Countries
+Dominica|Countries
+Dominican Republic|Countries
+East Timor|Countries
+Ecuador|Countries
+Egypt|Countries
+El Salvador|Countries
+Equatorial Guinea|Countries
+Eritrea|Countries
+Estonia|Countries
+Ethiopia|Countries
+Fiji|Countries
+Finland|Countries
+France|Countries
+Gabon|Countries
+The Gambia|Countries
+Georgia (country)|Countries
+Germany|Countries
+Ghana|Countries
+Greece|Countries
+Grenada|Countries
+Guatemala|Countries
+Guinea|Countries
+Guinea-Bissau|Countries
+Guyana|Countries
+Haiti|Countries
+Honduras|Countries
+Hungary|Countries
+Iceland|Countries
+India|Countries
+Indonesia|Countries
+Iran|Countries
+Iraq|Countries
+Ireland|Countries
+Israel|Countries
+Italy|Countries
+Jamaica|Countries
+Japan|Countries
+Jordan|Countries
+Kazakhstan|Countries
+Kenya|Countries
+Kiribati|Countries
+North Korea|Countries
+South Korea|Countries
+Kosovo|Countries
+Kuwait|Countries
+Kyrgyzstan|Countries
+Laos|Countries
+Latvia|Countries
+Lebanon|Countries
+Lesotho|Countries
+Liberia|Countries
+Libya|Countries
+Liechtenstein|Countries
+Lithuania|Countries
+Luxembourg|Countries
+Macedonia|Countries
+Madagascar|Countries
+Malawi|Countries
+Malaysia|Countries
+Maldives|Countries
+Mali|Countries
+Malta|Countries
+Marshall Islands|Countries
+Mauritania|Countries
+Mauritius|Countries
+Mexico|Countries
+Federated States of Micronesia|Countries
+Moldova|Countries
+Monaco|Countries
+Mongolia|Countries
+Montenegro|Countries
+Morocco|Countries
+Mozambique|Countries
+Myanmar|Countries
+Namibia|Countries
+Nauru|Countries
+Nepal|Countries
+Netherlands|Countries
+New Zealand|Countries
+Nicaragua|Countries
+Niger|Countries
+Nigeria|Countries
+Norway|Countries
+Oman|Countries
+Pakistan|Countries
+Palau|Countries
+Panama|Countries
+Papua New Guinea|Countries
+Paraguay|Countries
+Peru|Countries
+Philippines|Countries
+Poland|Countries
+Portugal|Countries
+Qatar|Countries
+Romania|Countries
+Russia|Countries
+Rwanda|Countries
+Saint Kitts and Nevis|Countries
+Saint Lucia|Countries
+Saint Vincent and the Grenadines|Countries
+Samoa|Countries
+San Marino|Countries
+Sao Tome and Principe|Countries
+Saudi Arabia|Countries
+Senegal|Countries
+Serbia|Countries
+Seychelles|Countries
+Sierra Leone|Countries
+Singapore|Countries
+Slovakia|Countries
+Slovenia|Countries
+Solomon Islands|Countries
+Somalia|Countries
+South Africa|Countries
+South Sudan|Countries
+Spain|Countries
+Sri Lanka|Countries
+Sudan|Countries
+Suriname|Countries
+Swaziland|Countries
+Sweden|Countries
+Switzerland|Countries
+Syria|Countries
+Taiwan|Countries
+Tajikistan|Countries
+Tanzania|Countries
+Thailand|Countries
+Togo|Countries
+Tonga|Countries
+Trinidad and Tobago|Countries
+Tunisia|Countries
+Turkey|Countries
+Turkmenistan|Countries
+Tuvalu|Countries
+Uganda|Countries
+Ukraine|Countries
+United Arab Emirates|Countries
+United Kingdom|Countries
+United States|Countries
+Uruguay|Countries
+Uzbekistan|Countries
+Vanuatu|Countries
+Vatican City|Countries
+Venezuela|Countries
+Vietnam|Countries
+Yemen|Countries
+Zambia|Countries
+Zimbabwe|Countries
