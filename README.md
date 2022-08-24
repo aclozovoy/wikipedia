@@ -14,4 +14,4 @@ api_data.py makes an API request for the applicable dates and stores the data in
 
 db_load.py loads the data from the API request into the MySQL database.
 
-Tableau loads data from the MySQL database.
+Tableau loads data from the MySQL database: https://public.tableau.com/app/profile/andrew.lozovoy/viz/WikipediaPageViews_16612873165990/InfoPage
