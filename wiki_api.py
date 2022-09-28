@@ -13,7 +13,7 @@ my_file.close()
 subjectlist = data.split("\n")
 
 # CONNECT TO DATABASE
-from db_conn import *
+from db_conn import conn
 cursor = conn()
 
 
@@ -23,7 +23,7 @@ for row in subjectlist:
     print(subject)
 
     # CHECK DATA ALREADY IN DATABASE
-    from db_view import *
+    from db_view import db_view
     latest = db_view(subject, cursor)
 
     if latest == '11111111':
@@ -32,9 +32,9 @@ for row in subjectlist:
         start_date = latest
 
     # GET DATA FROM WIKIPEDIA API
-    from api_data import *
+    from api_data import api_data
     df = api_data(subject,start_date,cur_date)
 
     # LOAD DATA INTO DATABASE
-    from db_load import *
+    from db_load import load
     load(df, subject, taglist, cursor)
