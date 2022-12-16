@@ -5,7 +5,7 @@ def conn():
     connection = pymysql.connect(
                     host = 'database-1.cl7ay4156fuf.us-west-2.rds.amazonaws.com',
                     user = 'admin',
-                    password = '_7t6TKH!oJHQEHQ')
+                    password = 'W*TXk9niAPZ*7W4mBRuj')
 
     cursor = connection.cursor()
 
