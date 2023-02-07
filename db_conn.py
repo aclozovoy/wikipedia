@@ -2,10 +2,17 @@ def conn():
 
     import pymysql
 
+    host = 'acl-database.cl7ay4156fuf.us-west-2.rds.amazonaws.com'
+    user = 'admin'
+
+    try:
+        with open('localpass.txt') as f:
+            password = f.readline().strip('\n')
+
     connection = pymysql.connect(
-                    host = 'database-1.cl7ay4156fuf.us-west-2.rds.amazonaws.com',
-                    user = 'admin',
-                    password = 'W*TXk9niAPZ*7W4mBRuj')
+                    host = host,
+                    user = user,
+                    password = password)
 
     cursor = connection.cursor()
 
